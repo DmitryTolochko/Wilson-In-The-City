@@ -7,6 +7,12 @@
         {
             "name": "Unity Editor",
             "type": "unity",
+            "path": "${workspaceFolder}/Library/EditorInstance.json",
+            "request": "launch"
+        },
+        {
+            "name": "Unity Editor",
+            "type": "unity",
             "path": "/E:/Проекты visual studio/Wilson In The City/Library/EditorInstance.json",
             "request": "launch"
         },
