@@ -1,0 +1,917 @@
+fileFormatVersion: 2
+guid: 7d967e22fc69c7340a44fec657ab9dc0
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WilsonRun_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1796
+        width: 191
+        height: 252
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08dbb49e7bb9e4844963299f5ec8a8b8
+      internalID: -372555722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WilsonRun_1
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 1793
+        width: 190
+        height: 252
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a371e0449441e8a4db56a67ae5dd0c74
+      internalID: 200292100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WilsonRun_2
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 1789
+        width: 190
+        height: 252
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44a1a6c3a69b8df43af32070be2c1959
+      internalID: -1358297462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WilsonRun_3
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 1786
+        width: 188
+        height: 252
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e24a43360eb537488477e81ec9de25b
+      internalID: 957177760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WilsonRun_4
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 1783
+        width: 187
+        height: 254
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5530bce34bcf7e0498fd61a6f683dac5
+      internalID: -723769497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WilsonRun_5
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1487
+        width: 143
+        height: 255
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f6ca33fec06f234e8d6722b885f7769
+      internalID: -633588456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WilsonRun_6
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1490
+        width: 99
+        height: 255
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89b97d96d94b1eb46b20ecec0a57c1e8
+      internalID: 1194013643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WilsonRun_7
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 1493
+        width: 81
+        height: 255
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed3f42520e33f034a8fcba5c0ef48e2f
+      internalID: 1322177652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WilsonRun_8
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 1493
+        width: 104
+        height: 256
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4b81b9b3ce20354e8eeeae2831e7570
+      internalID: -548209653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WilsonRun_9
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 1495
+        width: 126
+        height: 255
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f20774b7534ee1c44ba77876a7e5b4de
+      internalID: -861089000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WilsonRun_10
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1200
+        width: 148
+        height: 251
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c750b18ee7de675418d253fadba76d0e
+      internalID: 1426644914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WilsonRun_11
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 1204
+        width: 153
+        height: 248
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 219a733ebe3203e42984c407cfb7c5ef
+      internalID: -234562577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WilsonRun_12
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 1208
+        width: 159
+        height: 245
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e87e704aad6e8c4e984f4f874f6a886
+      internalID: 1488129899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WilsonRun_13
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 1213
+        width: 165
+        height: 240
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa0d348cf7931d04c8f4e2578e247667
+      internalID: -8094840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WilsonRun_14
+      rect:
+        serializedVersion: 2
+        x: 1203
+        y: 1215
+        width: 181
+        height: 239
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4688ad6d3610faf41b583be4a1544cd9
+      internalID: -154893848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WilsonRun_15
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 905
+        width: 176
+        height: 247
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba8b23f157581cd4785623938b110241
+      internalID: -1721875671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WilsonRun_16
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 895
+        width: 171
+        height: 256
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ed1fd7611fa4684d86b8f1f6a137cfe
+      internalID: -1546048768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WilsonRun_17
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 885
+        width: 166
+        height: 264
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6571d96398ed6341aa1ed9a9e48604a
+      internalID: 228122611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WilsonRun_18
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 888
+        width: 156
+        height: 259
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c28a060c1ddf7404080b4fe67429d3dd
+      internalID: 1636346802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WilsonRun_19
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 890
+        width: 160
+        height: 255
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 498381d391b70b0449a574e423733402
+      internalID: 1726855611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WilsonRun_20
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 592
+        width: 160
+        height: 251
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcf33a7dc1615384ea5c46b84690aa2f
+      internalID: -156443359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WilsonRun_21
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 594
+        width: 161
+        height: 246
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a60823b79e2c354889ebb8d19b21b43
+      internalID: -566332509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WilsonRun_22
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 596
+        width: 132
+        height: 245
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a340f471244cd8a44a79174995769a8b
+      internalID: -552056035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WilsonRun_23
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 599
+        width: 109
+        height: 243
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83326a9befa98194198ff5afecbb745b
+      internalID: 920647229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WilsonRun_24
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 601
+        width: 91
+        height: 242
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1cfd33b27803bb43912e2cab36106df
+      internalID: -1313772244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WilsonRun_25
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 304
+        width: 97
+        height: 240
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e205e5bf50ac9774c872b13f975ec40d
+      internalID: 1231111174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WilsonRun_26
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 304
+        width: 119
+        height: 242
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eccaf4c8bdcdb7e43af6b5714d2d2039
+      internalID: 1205395510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WilsonRun_27
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 306
+        width: 142
+        height: 241
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94ec776d75c0a1841a4a9530328eb7b3
+      internalID: -1422643396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WilsonRun_28
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 310
+        width: 165
+        height: 238
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e40e03575b617e242aea40ed0af18998
+      internalID: 1061019041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WilsonRun_29
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 312
+        width: 177
+        height: 237
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8312d60561880b247b063a7c20fafc5a
+      internalID: 138292815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WilsonRun_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 15
+        width: 190
+        height: 233
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ec61ca5b7a7a894d8998dfead7bbc43
+      internalID: 1821777036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WilsonRun_31
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 17
+        width: 202
+        height: 231
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a46ed603450bac4cac8219fff0b2c4b
+      internalID: -2057612962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WilsonRun_32
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 12
+        width: 199
+        height: 237
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52c4844b2de47de4383715111cb88f02
+      internalID: 463516101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WilsonRun_33
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 6
+        width: 196
+        height: 243
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b67dee653a4f274e908d9533831fdc0
+      internalID: 846719912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WilsonRun_34
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 0
+        width: 193
+        height: 249
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ca1dd5fda05b5c46810fa386cbe8562
+      internalID: -1581401676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      WilsonRun_7: 1322177652
+      WilsonRun_17: 228122611
+      WilsonRun_33: 846719912
+      WilsonRun_3: 957177760
+      WilsonRun_15: -1721875671
+      WilsonRun_26: 1205395510
+      WilsonRun_14: -154893848
+      WilsonRun_20: -156443359
+      WilsonRun_16: -1546048768
+      WilsonRun_29: 138292815
+      WilsonRun_2: -1358297462
+      WilsonRun_24: -1313772244
+      WilsonRun_4: -723769497
+      WilsonRun_19: 1726855611
+      WilsonRun_22: -552056035
+      WilsonRun_27: -1422643396
+      WilsonRun_18: 1636346802
+      WilsonRun_11: -234562577
+      WilsonRun_21: -566332509
+      WilsonRun_23: 920647229
+      WilsonRun_13: -8094840
+      WilsonRun_1: 200292100
+      WilsonRun_10: 1426644914
+      WilsonRun_9: -861089000
+      WilsonRun_25: 1231111174
+      WilsonRun_31: -2057612962
+      WilsonRun_8: -548209653
+      WilsonRun_32: 463516101
+      WilsonRun_5: -633588456
+      WilsonRun_34: -1581401676
+      WilsonRun_0: -372555722
+      WilsonRun_6: 1194013643
+      WilsonRun_28: 1061019041
+      WilsonRun_30: 1821777036
+      WilsonRun_12: 1488129899
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
