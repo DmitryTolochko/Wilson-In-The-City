@@ -9,6 +9,17 @@ public class MainMenuButtons : MonoBehaviour
     {
         SceneManager.LoadScene("Game");
     }
+    public void Reset()
+    {
+        ObstacleGenerator.DeleteAllObstacles();
+        PlayerModel.Reset();
+        SceneryEngine.IsGameReseted = true;
+        if (GameModel.Instance != null && GameModel.Instance.GameOverWindow.activeSelf)
+        {
+            GameModel.Instance.GameOverWindow.SetActive(false);
+        }
+        Time.timeScale = 1;
+    }
 
     public void OpenShop()
     {
@@ -31,9 +42,17 @@ public class MainMenuButtons : MonoBehaviour
         Time.timeScale = 0;
     }
 
-    public void ClosePause()
+    public void Resume()
     {
-        SceneManager.UnloadSceneAsync("PauseMenu");
+        if (SceneManager.sceneCount > 1)
+            SceneManager.UnloadSceneAsync("PauseMenu");
+        if (GameModel.Instance.GameOverWindow.activeSelf)
+        {
+            ObstacleGenerator.DeleteAllObstacles();
+            GameModel.Instance.GameOverWindow.SetActive(false);
+        }
+        PlayerModel.Instance.rb.gravityScale = 9.8f;
+        PlayerModel.Instance.rb.mass = 0.8f;
         Time.timeScale = 1;
     }
 }

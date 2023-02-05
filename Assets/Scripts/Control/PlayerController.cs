@@ -11,11 +11,23 @@ public class PlayerController : MonoBehaviour
 
     private void Update() 
     {
-        if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
+        
+        // var dX = Input.acceleration.x * Speed;
+        // rb.AddForce(Vector2.right * dX, ForceMode2D.Force);
+        if (Time.timeScale != 0)
         {
-            rb.AddForce(Vector2.up * Speed, ForceMode2D.Impulse);
+            if (Input.GetKeyDown(KeyCode.D))
+            {
+                rb.AddForce(Vector2.right * Speed * 5);
+            }
+            else if (Input.GetKeyDown(KeyCode.A))
+            {
+                rb.AddForce(Vector2.left * Speed * 5);
+            }
+            else if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
+            {
+                rb.AddForce(Vector2.up * Speed, ForceMode2D.Impulse);
+            }
         }
-        var dX = Input.acceleration.x * Speed;
-        rb.AddForce(Vector2.right * dX, ForceMode2D.Force);
     }
 }

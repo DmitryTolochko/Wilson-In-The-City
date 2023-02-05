@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class ObstacleGenerator : MonoBehaviour
 {
-    private List<GameObject> obstacles = new List<GameObject>();
+    private static List<GameObject> obstacles = new List<GameObject>();
+    private static List<PoolObjectType> obstaclesTypes = new List<PoolObjectType>();
 
     private void Update() 
     {
@@ -20,10 +21,24 @@ public class ObstacleGenerator : MonoBehaviour
         obstacle.SetActive(true);
 
         obstacles.Add(obstacle);
+        obstaclesTypes.Add(type);
         while (obstacle.transform.position.x > -17f)
             yield return new WaitForSeconds(0);
 
         PoolManager.Instance.CoolObject(obstacle, type);
         obstacles.Remove(obstacle);
+        obstaclesTypes.Remove(type);
+    }
+
+    public static void DeleteAllObstacles()
+    {
+        var count = obstacles.Count;
+        for (var i = 0; i < count; i++)
+        {
+            PoolManager.Instance.CoolObject(obstacles[i], obstaclesTypes[i]);
+        }
+
+        obstacles.Clear();
+        obstaclesTypes.Clear();
     }
 }

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7d967e22fc69c7340a44fec657ab9dc0
+guid: eb19d533006976045af0e2cb4838399f
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -129,736 +129,736 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: WilsonRun_0
+      name: Crystal_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 1796
-        width: 191
-        height: 252
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        x: 5
+        y: 600
+        width: 57
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 08dbb49e7bb9e4844963299f5ec8a8b8
-      internalID: -372555722
+      spriteID: 8809b6cbeba81cb42ad293845ade9d3d
+      internalID: 1930742633
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WilsonRun_1
+      name: Crystal_6
       rect:
         serializedVersion: 2
-        x: 299
-        y: 1793
-        width: 190
-        height: 252
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        x: 404
+        y: 307
+        width: 57
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a371e0449441e8a4db56a67ae5dd0c74
-      internalID: 200292100
+      spriteID: de565df20a28d8844907b2e0edfeb5ec
+      internalID: 83913043
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WilsonRun_2
+      name: Crystal_7
       rect:
         serializedVersion: 2
-        x: 596
-        y: 1789
-        width: 190
-        height: 252
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        x: 5
+        y: 209
+        width: 57
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 44a1a6c3a69b8df43af32070be2c1959
-      internalID: -1358297462
+      spriteID: 80559e704d22cbe459dcf75837904db1
+      internalID: -1565242186
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WilsonRun_3
+      name: Crystal_8
       rect:
         serializedVersion: 2
-        x: 894
-        y: 1786
-        width: 188
-        height: 252
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        x: 105
+        y: 209
+        width: 57
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e24a43360eb537488477e81ec9de25b
-      internalID: 957177760
+      spriteID: b4c542a32556d34479041191f611f464
+      internalID: 1762042617
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WilsonRun_4
+      name: Crystal_9
       rect:
         serializedVersion: 2
-        x: 1191
-        y: 1783
-        width: 187
-        height: 254
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        x: 205
+        y: 209
+        width: 57
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5530bce34bcf7e0498fd61a6f683dac5
-      internalID: -723769497
+      spriteID: b846e36a878bf6142ad48503573d843f
+      internalID: 519509600
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WilsonRun_5
+      name: Crystal_10
       rect:
         serializedVersion: 2
-        x: 14
-        y: 1487
-        width: 143
-        height: 255
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        x: 304
+        y: 209
+        width: 57
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8f6ca33fec06f234e8d6722b885f7769
-      internalID: -633588456
+      spriteID: 203fec0fc8e72d04282693c8daec6804
+      internalID: -392347711
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WilsonRun_6
+      name: Crystal_11
       rect:
         serializedVersion: 2
-        x: 338
-        y: 1490
-        width: 99
-        height: 255
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        x: 405
+        y: 209
+        width: 57
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89b97d96d94b1eb46b20ecec0a57c1e8
-      internalID: 1194013643
+      spriteID: 6a4e3699f4ac13f4e9cc5ad4bb120fe7
+      internalID: -1892026836
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WilsonRun_7
+      name: Crystal_12
       rect:
         serializedVersion: 2
-        x: 641
-        y: 1493
-        width: 101
-        height: 255
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        x: 5
+        y: 107
+        width: 57
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed3f42520e33f034a8fcba5c0ef48e2f
-      internalID: 1322177652
+      spriteID: d4c33ce9130202b43a7d8e9778aeaf70
+      internalID: -9903848
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WilsonRun_8
+      name: Crystal_13
       rect:
         serializedVersion: 2
-        x: 940
-        y: 1493
-        width: 104
-        height: 256
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        x: 105
+        y: 107
+        width: 57
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e4b81b9b3ce20354e8eeeae2831e7570
-      internalID: -548209653
+      spriteID: 1715f9e23b5d92d43b2f5682917a13a8
+      internalID: 2067702360
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WilsonRun_9
+      name: Crystal_14
       rect:
         serializedVersion: 2
-        x: 1229
-        y: 1495
-        width: 126
-        height: 255
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        x: 205
+        y: 107
+        width: 57
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f20774b7534ee1c44ba77876a7e5b4de
-      internalID: -861089000
+      spriteID: 0bcb8438d23cfdf4d966b13dda1da447
+      internalID: -279188615
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WilsonRun_10
+      name: Crystal_15
       rect:
         serializedVersion: 2
-        x: 17
-        y: 1200
-        width: 148
-        height: 251
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        x: 304
+        y: 107
+        width: 57
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c750b18ee7de675418d253fadba76d0e
-      internalID: 1426644914
+      spriteID: 9f469a9ea3ade5744aadcbd4bd6606c0
+      internalID: 1733140240
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WilsonRun_11
+      name: Crystal_16
       rect:
         serializedVersion: 2
-        x: 313
-        y: 1204
-        width: 153
-        height: 248
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        x: 405
+        y: 107
+        width: 56
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 219a733ebe3203e42984c407cfb7c5ef
-      internalID: -234562577
+      spriteID: cdc9bbca5a1284844a07f833d290b7ae
+      internalID: 442642736
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WilsonRun_12
+      name: Crystal_17
       rect:
         serializedVersion: 2
-        x: 610
-        y: 1208
-        width: 159
-        height: 245
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        x: 5
+        y: 4
+        width: 57
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e87e704aad6e8c4e984f4f874f6a886
-      internalID: 1488129899
+      spriteID: 787045c9f1aac31468bdc164f1e1c77f
+      internalID: 8973653
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WilsonRun_13
+      name: Crystal_18
       rect:
         serializedVersion: 2
-        x: 906
-        y: 1213
-        width: 165
-        height: 240
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        x: 105
+        y: 4
+        width: 57
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa0d348cf7931d04c8f4e2578e247667
-      internalID: -8094840
+      spriteID: af539203d7ab64a429fe3c6197c6ac05
+      internalID: 1908634788
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WilsonRun_14
+      name: Crystal_19
       rect:
         serializedVersion: 2
-        x: 1187
-        y: 1215
-        width: 198
-        height: 239
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        x: 205
+        y: 4
+        width: 57
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4688ad6d3610faf41b583be4a1544cd9
-      internalID: -154893848
+      spriteID: 91773a800dc6ab348895ca0ef649748b
+      internalID: -943574358
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WilsonRun_15
+      name: Crystal_20
       rect:
         serializedVersion: 2
-        x: 0
-        y: 905
-        width: 182
-        height: 247
-      alignment: 9
-      pivot: {x: 0.47, y: 1}
+        x: 304
+        y: 4
+        width: 57
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba8b23f157581cd4785623938b110241
-      internalID: -1721875671
+      spriteID: 0aa4563a483b2e14f991a768943de359
+      internalID: 1674891142
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WilsonRun_16
+      name: Crystal_21
       rect:
         serializedVersion: 2
-        x: 294
-        y: 895
-        width: 186
-        height: 256
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        x: 405
+        y: 4
+        width: 57
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ed1fd7611fa4684d86b8f1f6a137cfe
-      internalID: -1546048768
+      spriteID: 762b0c8ac5c2a1745bbc80f911d8efad
+      internalID: -1796221657
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WilsonRun_17
+      name: Crystal_1
       rect:
         serializedVersion: 2
-        x: 587
-        y: 885
-        width: 191
-        height: 264
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        x: 105
+        y: 600
+        width: 57
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c6571d96398ed6341aa1ed9a9e48604a
-      internalID: 228122611
+      spriteID: 81cc8e8f0f2b90d4b81f685b1ce12900
+      internalID: -1929013754
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WilsonRun_18
+      name: Crystal_2
       rect:
         serializedVersion: 2
-        x: 910
-        y: 888
-        width: 156
-        height: 259
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        x: 205
+        y: 600
+        width: 57
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c28a060c1ddf7404080b4fe67429d3dd
-      internalID: 1636346802
+      spriteID: 6c787ea14a739bf4c8974b1b2c4a026d
+      internalID: 752024724
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WilsonRun_19
+      name: Crystal_3
       rect:
         serializedVersion: 2
-        x: 1208
-        y: 890
-        width: 160
-        height: 255
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        x: 304
+        y: 600
+        width: 57
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 498381d391b70b0449a574e423733402
-      internalID: 1726855611
+      spriteID: ee12f6dd97ea6dd47bbfb5724b136c81
+      internalID: 164106544
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WilsonRun_20
+      name: Crystal_4
       rect:
         serializedVersion: 2
-        x: 7
-        y: 592
-        width: 160
-        height: 251
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        x: 406
+        y: 600
+        width: 56
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bcf33a7dc1615384ea5c46b84690aa2f
-      internalID: -156443359
+      spriteID: 079e2baeacdefd7409d345c29f7effa7
+      internalID: 653317059
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WilsonRun_21
+      name: Crystal_5
       rect:
         serializedVersion: 2
-        x: 305
-        y: 594
-        width: 161
-        height: 246
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        x: 5
+        y: 497
+        width: 57
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a60823b79e2c354889ebb8d19b21b43
-      internalID: -566332509
+      spriteID: 0d2c3ce48b6c4e145b993685c3f4f65c
+      internalID: -1638165211
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WilsonRun_22
+      name: Crystal_22
       rect:
         serializedVersion: 2
-        x: 621
-        y: 596
-        width: 132
-        height: 245
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        x: 105
+        y: 497
+        width: 57
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a340f471244cd8a44a79174995769a8b
-      internalID: -552056035
+      spriteID: 4e70b081c8955254b97b8039ab64e0bd
+      internalID: -2013495427
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WilsonRun_23
+      name: Crystal_23
       rect:
         serializedVersion: 2
-        x: 931
-        y: 599
-        width: 118
-        height: 243
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        x: 205
+        y: 497
+        width: 57
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 83326a9befa98194198ff5afecbb745b
-      internalID: 920647229
+      spriteID: fdea4ebf7b7236e4ebe9b0e8a8e1b57b
+      internalID: 962174504
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WilsonRun_24
+      name: Crystal_24
       rect:
         serializedVersion: 2
-        x: 1214
-        y: 601
-        width: 150
-        height: 242
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        x: 304
+        y: 497
+        width: 57
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a1cfd33b27803bb43912e2cab36106df
-      internalID: -1313772244
+      spriteID: c00ac02bb25e7b84e972fd4b678a02c7
+      internalID: -2086889305
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WilsonRun_25
+      name: Crystal_25
       rect:
         serializedVersion: 2
-        x: 16
-        y: 304
-        width: 144
-        height: 240
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        x: 406
+        y: 497
+        width: 57
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e205e5bf50ac9774c872b13f975ec40d
-      internalID: 1231111174
+      spriteID: 744694b77a5188241aefb38b5888b1e8
+      internalID: 1989328204
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WilsonRun_26
+      name: Crystal_26
       rect:
         serializedVersion: 2
-        x: 305
-        y: 304
-        width: 162
-        height: 242
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        x: 5
+        y: 403
+        width: 57
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eccaf4c8bdcdb7e43af6b5714d2d2039
-      internalID: 1205395510
+      spriteID: 5029c674e1b5f174686956f2caa899d3
+      internalID: 1582007933
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WilsonRun_27
+      name: Crystal_27
       rect:
         serializedVersion: 2
-        x: 617
-        y: 306
-        width: 154
-        height: 241
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        x: 105
+        y: 403
+        width: 57
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 94ec776d75c0a1841a4a9530328eb7b3
-      internalID: -1422643396
+      spriteID: 30d47d472c24f534aa425281ac844978
+      internalID: -29591355
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WilsonRun_28
+      name: Crystal_28
       rect:
         serializedVersion: 2
-        x: 907
-        y: 310
-        width: 165
-        height: 238
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        x: 205
+        y: 403
+        width: 57
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e40e03575b617e242aea40ed0af18998
-      internalID: 1061019041
+      spriteID: ae66a91c74d56e041962cb7b8a822faa
+      internalID: 1998402328
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WilsonRun_29
+      name: Crystal_29
       rect:
         serializedVersion: 2
-        x: 1204
-        y: 312
-        width: 177
-        height: 237
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        x: 304
+        y: 403
+        width: 57
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8312d60561880b247b063a7c20fafc5a
-      internalID: 138292815
+      spriteID: 0bb10fdc66347d24cb374ebdb439e39b
+      internalID: 392367345
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WilsonRun_30
+      name: Crystal_30
       rect:
         serializedVersion: 2
-        x: 0
-        y: 15
-        width: 190
-        height: 233
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        x: 405
+        y: 403
+        width: 57
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ec61ca5b7a7a894d8998dfead7bbc43
-      internalID: 1821777036
+      spriteID: d355827ba544a454795e407df9446d20
+      internalID: 153700527
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WilsonRun_31
+      name: Crystal_31
       rect:
         serializedVersion: 2
-        x: 296
-        y: 17
-        width: 202
-        height: 231
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        x: 5
+        y: 307
+        width: 57
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a46ed603450bac4cac8219fff0b2c4b
-      internalID: -2057612962
+      spriteID: 5fa83f7993532ed458f038ee0e3fa76c
+      internalID: 1697831593
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WilsonRun_32
+      name: Crystal_32
       rect:
         serializedVersion: 2
-        x: 598
-        y: 12
-        width: 199
-        height: 237
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        x: 105
+        y: 307
+        width: 57
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 52c4844b2de47de4383715111cb88f02
-      internalID: 463516101
+      spriteID: 7e866ecef5cc24a4c9ae1471604615af
+      internalID: -1585602066
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WilsonRun_33
+      name: Crystal_33
       rect:
         serializedVersion: 2
-        x: 900
-        y: 6
-        width: 196
-        height: 243
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        x: 205
+        y: 307
+        width: 57
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b67dee653a4f274e908d9533831fdc0
-      internalID: 846719912
+      spriteID: fad3cd6d21c944c47b841621b61d61cd
+      internalID: -1672649623
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WilsonRun_34
+      name: Crystal_34
       rect:
         serializedVersion: 2
-        x: 1202
-        y: 0
-        width: 193
-        height: 249
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        x: 304
+        y: 307
+        width: 57
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ca1dd5fda05b5c46810fa386cbe8562
-      internalID: -1581401676
+      spriteID: 5bb62cec9d83a8849a4ac918f3b79502
+      internalID: -576194606
       vertices: []
       indices: 
       edges: []
@@ -874,41 +874,41 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      WilsonRun_7: 1322177652
-      WilsonRun_17: 228122611
-      WilsonRun_33: 846719912
-      WilsonRun_3: 957177760
-      WilsonRun_15: -1721875671
-      WilsonRun_26: 1205395510
-      WilsonRun_14: -154893848
-      WilsonRun_20: -156443359
-      WilsonRun_16: -1546048768
-      WilsonRun_29: 138292815
-      WilsonRun_2: -1358297462
-      WilsonRun_24: -1313772244
-      WilsonRun_4: -723769497
-      WilsonRun_19: 1726855611
-      WilsonRun_22: -552056035
-      WilsonRun_27: -1422643396
-      WilsonRun_18: 1636346802
-      WilsonRun_11: -234562577
-      WilsonRun_21: -566332509
-      WilsonRun_23: 920647229
-      WilsonRun_13: -8094840
-      WilsonRun_1: 200292100
-      WilsonRun_10: 1426644914
-      WilsonRun_9: -861089000
-      WilsonRun_25: 1231111174
-      WilsonRun_31: -2057612962
-      WilsonRun_8: -548209653
-      WilsonRun_32: 463516101
-      WilsonRun_5: -633588456
-      WilsonRun_34: -1581401676
-      WilsonRun_0: -372555722
-      WilsonRun_6: 1194013643
-      WilsonRun_28: 1061019041
-      WilsonRun_30: 1821777036
-      WilsonRun_12: 1488129899
+      Crystal_21: -1796221657
+      Crystal_18: 1908634788
+      Crystal_23: 962174504
+      Crystal_19: -943574358
+      Crystal_16: 442642736
+      Crystal_14: -279188615
+      Crystal_7: -1565242186
+      Crystal_33: -1672649623
+      Crystal_27: -29591355
+      Crystal_26: 1582007933
+      Crystal_4: 653317059
+      Crystal_1: -1929013754
+      Crystal_0: 1930742633
+      Crystal_32: -1585602066
+      Crystal_10: -392347711
+      Crystal_3: 164106544
+      Crystal_24: -2086889305
+      Crystal_30: 153700527
+      Crystal_12: -9903848
+      Crystal_6: 83913043
+      Crystal_15: 1733140240
+      Crystal_17: 8973653
+      Crystal_13: 2067702360
+      Crystal_29: 392367345
+      Crystal_28: 1998402328
+      Crystal_8: 1762042617
+      Crystal_5: -1638165211
+      Crystal_34: -576194606
+      Crystal_9: 519509600
+      Crystal_22: -2013495427
+      Crystal_11: -1892026836
+      Crystal_20: 1674891142
+      Crystal_2: 752024724
+      Crystal_25: 1989328204
+      Crystal_31: 1697831593
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

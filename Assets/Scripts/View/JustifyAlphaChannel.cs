@@ -7,19 +7,30 @@ public class JustifyAlphaChannel : MonoBehaviour
     public SpriteRenderer Sprite;
     public float ChangeSpeed;
 
-    private bool isIncreasing = true;
-    private bool timeElapsed = true;
+    private bool isIncreasing;
+    private bool timeElapsed;
 
     private float transparency;
+    private float initialTransparency;
 
     private void Start() 
     {
+        initialTransparency = Sprite.color.a;
+        isIncreasing = true;
+        timeElapsed = true;
         transparency = Sprite.color.a * 255;
     }
 
     private void Update() 
     {
-        if (timeElapsed)
+        if (SceneryEngine.IsGameReseted)
+        {
+            Sprite.color = new Color(1f, 1f, 1f, initialTransparency);
+            isIncreasing = true;
+            timeElapsed = true;
+            transparency = Sprite.color.a * 255;
+        }
+        else if (timeElapsed)
         {
             if (transparency < 255 && isIncreasing)
             {
