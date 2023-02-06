@@ -12,7 +12,9 @@ public enum PoolObjectType
     Bench,
     Mailbox,
     Trashcan,
-    Dirt
+    Dirt,
+    Money,
+    Crystal
 }
 
 [Serializable]

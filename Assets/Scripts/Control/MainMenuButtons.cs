@@ -12,8 +12,12 @@ public class MainMenuButtons : MonoBehaviour
     public void Reset()
     {
         ObstacleGenerator.DeleteAllObstacles();
+        CollectableItemsGenerator.DeleteAllItems();
         PlayerModel.Reset();
         SceneryEngine.IsGameReseted = true;
+        GameModel.ScoreCurrent = 0;
+        GameModel.CrystalsCountCurrent = 0;
+        GameModel.MoneyCountCurrent = 0;
         if (GameModel.Instance != null && GameModel.Instance.GameOverWindow.activeSelf)
         {
             GameModel.Instance.GameOverWindow.SetActive(false);
@@ -49,10 +53,9 @@ public class MainMenuButtons : MonoBehaviour
         if (GameModel.Instance.GameOverWindow.activeSelf)
         {
             ObstacleGenerator.DeleteAllObstacles();
+            CollectableItemsGenerator.DeleteAllItems();
             GameModel.Instance.GameOverWindow.SetActive(false);
         }
-        PlayerModel.Instance.rb.gravityScale = 9.8f;
-        PlayerModel.Instance.rb.mass = 0.8f;
-        Time.timeScale = 1;
+        Time.timeScale = GameModel.TimeScaleCurrent;
     }
 }

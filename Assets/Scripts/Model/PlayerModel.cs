@@ -20,15 +20,16 @@ public class PlayerModel : MonoBehaviour
             return;
 
         OnTriggerEnter2D(other.collider);
-        // if ((other.collider.bounds.size.y/2 - other.transform.position.y >
-        //     transform.localPosition.y - collider.bounds.size.y/2)
-        // && (other.transform.position.x - other.collider.bounds.size.x/2 >=
-        //     transform.localPosition.x))
-        //     StartCoroutine(GameModel.StartGameOverRoutine());
     }
 
     private void OnTriggerEnter2D(Collider2D other) 
     {
+        if (other.TryGetComponent<CollectableItem>(out var item))
+        {
+            item.IsCollected = true;
+            return;
+        }
+
         if ((other.bounds.size.y/2 - other.transform.position.y >
             transform.localPosition.y - collider.bounds.size.y/2)
         && (other.transform.position.x - other.bounds.size.x/2 >=

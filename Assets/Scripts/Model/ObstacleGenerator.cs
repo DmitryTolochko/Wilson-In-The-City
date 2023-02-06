@@ -9,7 +9,9 @@ public class ObstacleGenerator : MonoBehaviour
 
     private void Update() 
     {
-        if (obstacles.Count == 0 || obstacles.Count < 3 && obstacles[obstacles.Count - 1].transform.position.x <= 9)
+        if (Time.timeScale != 0 && 
+        (obstacles.Count == 0 || obstacles.Count < 3 
+        && obstacles[obstacles.Count - 1].transform.position.x <= 9))
             StartCoroutine(GetObstacle());
     }
 
@@ -32,8 +34,7 @@ public class ObstacleGenerator : MonoBehaviour
 
     public static void DeleteAllObstacles()
     {
-        var count = obstacles.Count;
-        for (var i = 0; i < count; i++)
+        for (var i = 0; i < obstacles.Count; i++)
         {
             PoolManager.Instance.CoolObject(obstacles[i], obstaclesTypes[i]);
         }

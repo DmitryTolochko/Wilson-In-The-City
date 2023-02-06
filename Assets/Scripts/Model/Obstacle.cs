@@ -5,6 +5,7 @@ using UnityEngine;
 public class Obstacle : MonoBehaviour
 {
     public float Speed;
+    public PoolObjectType Type;
 
     private void Update() 
     {
