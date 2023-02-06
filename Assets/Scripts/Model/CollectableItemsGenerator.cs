@@ -12,7 +12,7 @@ public class CollectableItemsGenerator : MonoBehaviour
         if (Time.timeScale != 0 && 
         timeElapsed && 
         (items.Count == 0 || items.Count < 2 
-        && items[items.Count - 1].transform.position.x <= Random.Range(8, 14)))
+        && items[items.Count - 1].transform.position.x <= Random.Range(9, 14)))
             StartCoroutine(GetItem());
     }
 
@@ -22,8 +22,10 @@ public class CollectableItemsGenerator : MonoBehaviour
         var num = Random.Range(0, 10);
         
         var type = num == 0 && GameModel.ScoreCurrent > 20 ? PoolObjectType.Crystal : PoolObjectType.Money;
+        type = num > 6 ? PoolObjectType.Clock : type;
+
         var item = PoolManager.Instance.GetPoolObject(type);
-        item.transform.localPosition = new Vector2(17f, -4.78f);
+        item.transform.localPosition = new Vector2(17f, 0f);
         item.SetActive(true);
 
         items.Add(item);

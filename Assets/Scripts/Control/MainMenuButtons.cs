@@ -5,12 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class MainMenuButtons : MonoBehaviour
 {
-    public void Play()
-    {
-        SceneManager.LoadScene("Game");
-    }
     public void Reset()
     {
+        CloseAllAsyncScenes("Game");
+
         ObstacleGenerator.DeleteAllObstacles();
         CollectableItemsGenerator.DeleteAllItems();
         PlayerModel.Reset();
@@ -18,6 +16,8 @@ public class MainMenuButtons : MonoBehaviour
         GameModel.ScoreCurrent = 0;
         GameModel.CrystalsCountCurrent = 0;
         GameModel.MoneyCountCurrent = 0;
+        GameModel.CollectedClocksCurrent = 0;
+        UI.StopClockTimer();
         if (GameModel.Instance != null && GameModel.Instance.GameOverWindow.activeSelf)
         {
             GameModel.Instance.GameOverWindow.SetActive(false);
@@ -27,7 +27,8 @@ public class MainMenuButtons : MonoBehaviour
 
     public void OpenShop()
     {
-        SceneManager.LoadScene("Shop");
+        SceneManager.LoadSceneAsync("Shop", LoadSceneMode.Additive);
+        Time.timeScale = 0;
     }
 
     public void ExitGame()
@@ -37,7 +38,8 @@ public class MainMenuButtons : MonoBehaviour
 
     public void OpenMenu()
     {
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadSceneAsync("MainMenu", LoadSceneMode.Additive);
+        Time.timeScale = 0;
     }
 
     public void OpenPause()
@@ -48,8 +50,8 @@ public class MainMenuButtons : MonoBehaviour
 
     public void Resume()
     {
-        if (SceneManager.sceneCount > 1)
-            SceneManager.UnloadSceneAsync("PauseMenu");
+        CloseAllAsyncScenes("Game");
+        
         if (GameModel.Instance.GameOverWindow.activeSelf)
         {
             ObstacleGenerator.DeleteAllObstacles();
@@ -57,5 +59,23 @@ public class MainMenuButtons : MonoBehaviour
             GameModel.Instance.GameOverWindow.SetActive(false);
         }
         Time.timeScale = GameModel.TimeScaleCurrent;
+    }
+
+    public void ClockButton()
+    {
+        StartCoroutine(GameModel.DecelerateGame());
+        StartCoroutine(UI.StartClockTimer());
+        GameModel.CollectedClocksCurrent -= 1;
+    }
+
+    private void CloseAllAsyncScenes(string currentScene)
+    {
+        if (SceneManager.sceneCount > 1)
+        {
+            var scenes = SceneManager.GetAllScenes();
+            foreach (var scene in scenes)
+                if (scene.name != currentScene)
+                    SceneManager.UnloadSceneAsync(scene);
+        }
     }
 }

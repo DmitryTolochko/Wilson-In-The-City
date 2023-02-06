@@ -132,12 +132,12 @@ TextureImporter:
       name: Crystal_0
       rect:
         serializedVersion: 2
-        x: 5
+        x: 0
         y: 600
-        width: 57
-        height: 92
+        width: 70
+        height: 97
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -150,15 +150,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crystal_6
+      name: 19
       rect:
         serializedVersion: 2
         x: 404
-        y: 307
-        width: 57
-        height: 92
+        y: 302
+        width: 60
+        height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -171,15 +171,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crystal_7
+      name: 20
       rect:
         serializedVersion: 2
-        x: 5
-        y: 209
-        width: 57
-        height: 92
+        x: 0
+        y: 203
+        width: 70
+        height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -192,15 +192,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crystal_8
+      name: 21
       rect:
         serializedVersion: 2
-        x: 105
-        y: 209
-        width: 57
-        height: 92
+        x: 99
+        y: 202
+        width: 70
+        height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -213,15 +213,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crystal_9
+      name: 22
       rect:
         serializedVersion: 2
-        x: 205
-        y: 209
-        width: 57
-        height: 92
+        x: 200
+        y: 202
+        width: 70
+        height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -234,15 +234,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crystal_10
+      name: 23
       rect:
         serializedVersion: 2
-        x: 304
-        y: 209
-        width: 57
-        height: 92
+        x: 300
+        y: 203
+        width: 70
+        height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -255,15 +255,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crystal_11
+      name: 24
       rect:
         serializedVersion: 2
         x: 405
-        y: 209
-        width: 57
-        height: 92
+        y: 202
+        width: 59
+        height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -276,15 +276,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crystal_12
+      name: 25
       rect:
         serializedVersion: 2
-        x: 5
-        y: 107
-        width: 57
-        height: 92
+        x: 0
+        y: 106
+        width: 70
+        height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -297,15 +297,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crystal_13
+      name: 26
       rect:
         serializedVersion: 2
-        x: 105
+        x: 99
         y: 107
-        width: 57
-        height: 92
+        width: 70
+        height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -318,15 +318,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crystal_14
+      name: 27
       rect:
         serializedVersion: 2
-        x: 205
-        y: 107
-        width: 57
-        height: 92
+        x: 199
+        y: 106
+        width: 70
+        height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -339,15 +339,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crystal_15
+      name: 28
       rect:
         serializedVersion: 2
-        x: 304
+        x: 299
         y: 107
-        width: 57
-        height: 92
+        width: 70
+        height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -360,15 +360,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crystal_16
+      name: 29
       rect:
         serializedVersion: 2
         x: 405
         y: 107
-        width: 56
-        height: 92
+        width: 59
+        height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -381,15 +381,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crystal_17
+      name: 30
       rect:
         serializedVersion: 2
-        x: 5
+        x: 0
         y: 4
-        width: 57
-        height: 92
+        width: 70
+        height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -402,15 +402,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crystal_18
+      name: 31
       rect:
         serializedVersion: 2
-        x: 105
-        y: 4
-        width: 57
-        height: 92
+        x: 99
+        y: 5
+        width: 70
+        height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -423,15 +423,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crystal_19
+      name: 32
       rect:
         serializedVersion: 2
-        x: 205
+        x: 199
         y: 4
-        width: 57
-        height: 92
+        width: 70
+        height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -444,15 +444,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crystal_20
+      name: 33
       rect:
         serializedVersion: 2
-        x: 304
+        x: 299
         y: 4
-        width: 57
-        height: 92
+        width: 70
+        height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -465,15 +465,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crystal_21
+      name: 34
       rect:
         serializedVersion: 2
-        x: 405
-        y: 4
-        width: 57
-        height: 92
+        x: 399
+        y: 0
+        width: 65
+        height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -486,15 +486,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crystal_1
+      name: 1
       rect:
         serializedVersion: 2
-        x: 105
+        x: 99
         y: 600
-        width: 57
-        height: 92
+        width: 70
+        height: 97
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -507,15 +507,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crystal_2
+      name: 2
       rect:
         serializedVersion: 2
-        x: 205
-        y: 600
-        width: 57
-        height: 92
+        x: 199
+        y: 599
+        width: 70
+        height: 97
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -528,15 +528,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crystal_3
+      name: 3
       rect:
         serializedVersion: 2
-        x: 304
-        y: 600
-        width: 57
-        height: 92
+        x: 298
+        y: 599
+        width: 70
+        height: 97
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -549,15 +549,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crystal_4
+      name: 4
       rect:
         serializedVersion: 2
         x: 406
-        y: 600
-        width: 56
-        height: 92
+        y: 599
+        width: 58
+        height: 97
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -570,15 +570,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crystal_5
+      name: 5
       rect:
         serializedVersion: 2
-        x: 5
-        y: 497
-        width: 57
-        height: 92
+        x: 1
+        y: 498
+        width: 70
+        height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -591,15 +591,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crystal_22
+      name: 6
       rect:
         serializedVersion: 2
-        x: 105
-        y: 497
-        width: 57
-        height: 92
+        x: 100
+        y: 498
+        width: 70
+        height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -612,15 +612,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crystal_23
+      name: 7
       rect:
         serializedVersion: 2
-        x: 205
-        y: 497
-        width: 57
-        height: 92
+        x: 199
+        y: 498
+        width: 70
+        height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -633,15 +633,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crystal_24
+      name: 8
       rect:
         serializedVersion: 2
-        x: 304
-        y: 497
-        width: 57
-        height: 92
+        x: 299
+        y: 498
+        width: 70
+        height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -654,15 +654,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crystal_25
+      name: 9
       rect:
         serializedVersion: 2
-        x: 406
-        y: 497
-        width: 57
-        height: 92
+        x: 404
+        y: 500
+        width: 58
+        height: 95
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -675,15 +675,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crystal_26
+      name: 10
       rect:
         serializedVersion: 2
-        x: 5
-        y: 403
-        width: 57
-        height: 92
+        x: 0
+        y: 400
+        width: 70
+        height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -696,15 +696,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crystal_27
+      name: 11
       rect:
         serializedVersion: 2
-        x: 105
+        x: 99
         y: 403
-        width: 57
-        height: 92
+        width: 70
+        height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -717,15 +717,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crystal_28
+      name: 12
       rect:
         serializedVersion: 2
-        x: 205
+        x: 199
         y: 403
-        width: 57
-        height: 92
+        width: 70
+        height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -738,15 +738,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crystal_29
+      name: 13
       rect:
         serializedVersion: 2
-        x: 304
-        y: 403
-        width: 57
-        height: 92
+        x: 299
+        y: 402
+        width: 70
+        height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -759,15 +759,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crystal_30
+      name: 14
       rect:
         serializedVersion: 2
-        x: 405
+        x: 404
         y: 403
-        width: 57
-        height: 92
+        width: 60
+        height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -780,15 +780,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crystal_31
+      name: 15
       rect:
         serializedVersion: 2
-        x: 5
-        y: 307
-        width: 57
-        height: 92
+        x: 0
+        y: 302
+        width: 70
+        height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -801,15 +801,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crystal_32
+      name: 16
       rect:
         serializedVersion: 2
-        x: 105
-        y: 307
-        width: 57
-        height: 92
+        x: 99
+        y: 301
+        width: 70
+        height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -822,15 +822,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crystal_33
+      name: 17
       rect:
         serializedVersion: 2
-        x: 205
-        y: 307
-        width: 57
-        height: 92
+        x: 199
+        y: 302
+        width: 70
+        height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -843,15 +843,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crystal_34
+      name: 18
       rect:
         serializedVersion: 2
-        x: 304
-        y: 307
-        width: 57
-        height: 92
+        x: 299
+        y: 303
+        width: 70
+        height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -874,41 +874,41 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Crystal_21: -1796221657
-      Crystal_18: 1908634788
-      Crystal_23: 962174504
-      Crystal_19: -943574358
-      Crystal_16: 442642736
-      Crystal_14: -279188615
-      Crystal_7: -1565242186
-      Crystal_33: -1672649623
-      Crystal_27: -29591355
-      Crystal_26: 1582007933
-      Crystal_4: 653317059
-      Crystal_1: -1929013754
+      23: -392347711
+      31: 1908634788
+      3: 164106544
+      8: -2086889305
+      19: 83913043
+      27: -279188615
+      11: -29591355
+      30: 8973653
+      32: -943574358
+      18: -576194606
+      12: 1998402328
+      2: 752024724
+      6: -2013495427
+      9: 1989328204
+      4: 653317059
       Crystal_0: 1930742633
-      Crystal_32: -1585602066
-      Crystal_10: -392347711
-      Crystal_3: 164106544
-      Crystal_24: -2086889305
-      Crystal_30: 153700527
-      Crystal_12: -9903848
-      Crystal_6: 83913043
-      Crystal_15: 1733140240
-      Crystal_17: 8973653
-      Crystal_13: 2067702360
-      Crystal_29: 392367345
-      Crystal_28: 1998402328
-      Crystal_8: 1762042617
-      Crystal_5: -1638165211
-      Crystal_34: -576194606
-      Crystal_9: 519509600
-      Crystal_22: -2013495427
-      Crystal_11: -1892026836
-      Crystal_20: 1674891142
-      Crystal_2: 752024724
-      Crystal_25: 1989328204
-      Crystal_31: 1697831593
+      16: -1585602066
+      5: -1638165211
+      20: -1565242186
+      14: 153700527
+      29: 442642736
+      21: 1762042617
+      26: 2067702360
+      22: 519509600
+      24: -1892026836
+      13: 392367345
+      34: -1796221657
+      33: 1674891142
+      1: -1929013754
+      7: 962174504
+      28: 1733140240
+      17: -1672649623
+      10: 1582007933
+      25: -9903848
+      15: 1697831593
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

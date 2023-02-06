@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,7 +6,6 @@ using UnityEngine;
 public class ObstacleGenerator : MonoBehaviour
 {
     private static List<GameObject> obstacles = new List<GameObject>();
-    private static List<PoolObjectType> obstaclesTypes = new List<PoolObjectType>();
 
     private void Update() 
     {
@@ -17,29 +17,35 @@ public class ObstacleGenerator : MonoBehaviour
 
     private IEnumerator GetObstacle()
     {
-        var type = (PoolObjectType)Random.Range(0, 9);
+        var type = (PoolObjectType)UnityEngine.Random.Range(0, 8);
         var obstacle = PoolManager.Instance.GetPoolObject(type);
         obstacle.transform.position = new Vector2(17f, -4.78f);
         obstacle.SetActive(true);
 
         obstacles.Add(obstacle);
-        obstaclesTypes.Add(type);
         while (obstacle.transform.position.x > -17f)
             yield return new WaitForSeconds(0);
 
         PoolManager.Instance.CoolObject(obstacle, type);
         obstacles.Remove(obstacle);
-        obstaclesTypes.Remove(type);
     }
 
     public static void DeleteAllObstacles()
     {
-        for (var i = 0; i < obstacles.Count; i++)
+        var count = obstacles.Count;
+        try
         {
-            PoolManager.Instance.CoolObject(obstacles[i], obstaclesTypes[i]);
+        for (var i = 0; i < count; i++)
+        {
+            var script = obstacles[i].GetComponent<Obstacle>();
+            PoolManager.Instance.CoolObject(obstacles[i], script.Type);
+        }
+        }
+        catch (NullReferenceException)
+        {
+            return;
         }
 
         obstacles.Clear();
-        obstaclesTypes.Clear();
     }
 }

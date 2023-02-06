@@ -14,7 +14,8 @@ public enum PoolObjectType
     Trashcan,
     Dirt,
     Money,
-    Crystal
+    Crystal,
+    Clock
 }
 
 [Serializable]

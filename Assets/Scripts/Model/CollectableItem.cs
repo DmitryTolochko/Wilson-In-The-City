@@ -14,6 +14,9 @@ public class CollectableItem : MonoBehaviour
     {
         transform.position = Vector2.MoveTowards(transform.position, 
             new Vector2(-17f, transform.position.y), Speed * Time.deltaTime);
+
+        if (Type == PoolObjectType.Clock && IsCollected)
+            GameModel.CollectedClocksCurrent += 1;
     }
 
     private void OnTriggerEnter2D(Collider2D other) 
