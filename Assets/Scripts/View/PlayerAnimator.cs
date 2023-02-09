@@ -4,13 +4,21 @@ using UnityEngine;
 
 public class PlayerAnimator : MonoBehaviour
 {
-    private Animator Animator;
+    public static PlayerAnimator Instance;
+
+    public RuntimeAnimatorController WilsonController;
+    public RuntimeAnimatorController RichardController;
+    public RuntimeAnimatorController MarvinController;
+
+    [HideInInspector]
+    public Animator Animator;
     private new Collider2D collider;
 
     private void Start() 
     {
         Animator = transform.Find("Animator").GetComponent<Animator>();
         collider = GetComponent<Collider2D>();
+        Instance = this;
     }
 
     private void Update() 
@@ -35,5 +43,21 @@ public class PlayerAnimator : MonoBehaviour
             return;
         
         Animator.SetBool("IsDrifting", false);
+    }
+
+    public static void ChangeSkin(SkinType type)
+    {
+        switch (type)
+        {
+            case SkinType.Wilson:
+                Instance.Animator.runtimeAnimatorController = Instance.WilsonController;
+                break;
+            case SkinType.Richard:
+                Instance.Animator.runtimeAnimatorController = Instance.RichardController;
+                break;
+            case SkinType.Marvin:
+                Instance.Animator.runtimeAnimatorController = Instance.MarvinController;
+                break;
+        }
     }
 }

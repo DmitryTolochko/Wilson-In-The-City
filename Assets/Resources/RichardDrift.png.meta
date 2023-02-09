@@ -644,9 +644,9 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       RichardDrift_19: 177213678
-      RichardDrift_14: 201921635
-      RichardDrift_11: -1820512456
       RichardDrift_22: -480563086
+      RichardDrift_11: -1820512456
+      RichardDrift_23: -1149606629
       RichardDrift_0: 610154662
       RichardDrift_21: 2085342026
       RichardDrift_16: -205225338
@@ -665,8 +665,8 @@ TextureImporter:
       RichardDrift_12: 1250777787
       RichardDrift_9: -1740599173
       RichardDrift_10: 1584263235
+      RichardDrift_14: 201921635
       RichardDrift_3: 798860063
-      RichardDrift_23: -1149606629
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -19,11 +19,11 @@ public class CollectableItemsGenerator : MonoBehaviour
     private IEnumerator GetItem()
     {
         StartCoroutine(Wait());
-        var num = Random.Range(0, 10);
+        // var num = Random.Range(0, 10);
         
-        var type = num == 0 && GameModel.ScoreCurrent > 20 ? PoolObjectType.Crystal : PoolObjectType.Money;
-        type = num > 6 ? PoolObjectType.Clock : type;
-
+        // var type = num == 0 && GameModel.ScoreCurrent > 20 ? PoolObjectType.Crystal : PoolObjectType.Money;
+        // type = num > 6 ? PoolObjectType.Clock : type;
+        var type = GetItemType();
         var item = PoolManager.Instance.GetPoolObject(type);
         item.transform.localPosition = new Vector2(17f, 0f);
         item.SetActive(true);
@@ -66,5 +66,25 @@ public class CollectableItemsGenerator : MonoBehaviour
         timeElapsed = false;
         yield return new WaitForSeconds(Random.Range(0, 8));
         timeElapsed = true;
+    }
+
+    private PoolObjectType GetItemType()
+    {
+        if (GameModel.ScoreCurrent <= 100)
+            return PoolObjectType.Money;
+        
+        if (GameModel.ScoreCurrent > 100 && GameModel.ScoreCurrent <= 200)
+        {
+            return Random.Range(0, 10) == 0 ? PoolObjectType.Crystal : PoolObjectType.Money;
+        }
+
+        var num = Random.Range(1, 11);
+
+        if (num > 8)
+            return PoolObjectType.Clock;
+        else if (num == 1)
+            return PoolObjectType.Crystal;
+        else
+            return PoolObjectType.Money;
     }
 }

@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -7,7 +8,7 @@ public class MainMenuButtons : MonoBehaviour
 {
     public void Reset()
     {
-        CloseAllAsyncScenes("Game");
+        CloseAllAsyncScenes(new string[] {"Game"});
 
         ObstacleGenerator.DeleteAllObstacles();
         CollectableItemsGenerator.DeleteAllItems();
@@ -27,6 +28,7 @@ public class MainMenuButtons : MonoBehaviour
 
     public void OpenShop()
     {
+        CloseAllAsyncScenes(new string[] {"Game"});
         SceneManager.LoadSceneAsync("Shop", LoadSceneMode.Additive);
         Time.timeScale = 0;
     }
@@ -38,19 +40,21 @@ public class MainMenuButtons : MonoBehaviour
 
     public void OpenMenu()
     {
+        CloseAllAsyncScenes(new string[] {"Game"});
         SceneManager.LoadSceneAsync("MainMenu", LoadSceneMode.Additive);
         Time.timeScale = 0;
     }
 
     public void OpenPause()
     {
+        CloseAllAsyncScenes(new string[] {"Game"});
         SceneManager.LoadSceneAsync("PauseMenu", LoadSceneMode.Additive);
         Time.timeScale = 0;
     }
 
     public void Resume()
     {
-        CloseAllAsyncScenes("Game");
+        CloseAllAsyncScenes(new string[] {"Game"});
         
         if (GameModel.Instance.GameOverWindow.activeSelf)
         {
@@ -68,14 +72,29 @@ public class MainMenuButtons : MonoBehaviour
         GameModel.CollectedClocksCurrent -= 1;
     }
 
-    private void CloseAllAsyncScenes(string currentScene)
+    private void CloseAllAsyncScenes(string[] currentScenes)
     {
         if (SceneManager.sceneCount > 1)
         {
             var scenes = SceneManager.GetAllScenes();
             foreach (var scene in scenes)
-                if (scene.name != currentScene)
+                if (!currentScenes.Contains(scene.name))
                     SceneManager.UnloadSceneAsync(scene);
         }
+    }
+
+    public void ChangeSkinToWilson()
+    {
+        PlayerAnimator.ChangeSkin(SkinType.Wilson);
+    }
+
+    public void ChangeSkinToRichard()
+    {
+        PlayerAnimator.ChangeSkin(SkinType.Richard);
+    }
+
+    public void ChangeSkinToMarvin()
+    {
+        PlayerAnimator.ChangeSkin(SkinType.Marvin);
     }
 }
