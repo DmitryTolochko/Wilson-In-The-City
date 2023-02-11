@@ -24,7 +24,11 @@ public class CollectableItem : MonoBehaviour
         if (IsRaised)
             return;
         if (other.transform.name == "Player")
+        {
+            SoundPlayer.Instance.PlayUISound(UISoundType.Money);
             return; 
+        }
+            
         if (other.transform.name == "Background")
             return;
         else

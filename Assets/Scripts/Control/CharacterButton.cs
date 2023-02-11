@@ -33,6 +33,7 @@ public class CharacterButton : MonoBehaviour
         if (GameModel.OpenedCharacters.Contains(SkinType) && GameModel.SkinType != SkinType)
         {
             PlayerAnimator.ChangeSkin(SkinType);
+            SoundPlayer.Instance.PlayUISound(UISoundType.MakeChoice);
         }
         else
         {
@@ -60,8 +61,13 @@ public class CharacterButton : MonoBehaviour
 
     private void BuyCharacter()
     {
-        GameModel.CrystalCount -= Cost;
-        GameModel.OpenedCharacters.Add(SkinType);
-        GameModel.SaveToFile();
+        if (GameModel.CrystalCount >= Cost)
+        {
+            GameModel.CrystalCount -= Cost;
+            GameModel.OpenedCharacters.Add(SkinType);
+            GameModel.SaveToFile();
+            SoundPlayer.Instance.StopMusic();
+            SoundPlayer.Instance.PlayUISound(UISoundType.Buy);
+        }
     }
 }

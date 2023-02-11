@@ -16,6 +16,7 @@ public class GameModelStruct
 
 public class GameModel : MonoBehaviour
 {
+    public GameObject BlackScreen;
     private static int collectedClocksCurrent;
     public GameObject GameOverWindow;
 
@@ -101,6 +102,7 @@ public class GameModel : MonoBehaviour
         SceneManager.LoadSceneAsync("MainMenu", LoadSceneMode.Additive);
         Time.timeScale = 0;
         Instance = this;
+        SoundPlayer.Instance.PlayMusic(MusicType.Menu);
     }
 
     private void Update() 
@@ -118,6 +120,8 @@ public class GameModel : MonoBehaviour
     {
         TimeScaleCurrent = Time.timeScale;
         Time.timeScale = 0;
+        SoundPlayer.Instance.StopMusic();
+        SoundPlayer.Instance.PlayUISound(UISoundType.GameOver);
 
         if (BestScore < ScoreCurrent)
             BestScore = ScoreCurrent;

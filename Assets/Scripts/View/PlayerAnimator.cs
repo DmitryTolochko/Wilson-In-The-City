@@ -7,6 +7,7 @@ public class PlayerAnimator : MonoBehaviour
     public static PlayerAnimator Instance;
 
     public GameObject AnimatorObject;
+    private SpriteRenderer Renderer;
 
     public RuntimeAnimatorController WilsonController;
     public RuntimeAnimatorController RichardController;
@@ -21,6 +22,7 @@ public class PlayerAnimator : MonoBehaviour
     {
         Animator = transform.Find("Animator").GetComponent<Animator>();
         collider = GetComponent<Collider2D>();
+        Renderer = AnimatorObject.GetComponent<SpriteRenderer>();
         Instance = this;
 
         ChangeSkin(GameModel.SkinType);
@@ -32,6 +34,12 @@ public class PlayerAnimator : MonoBehaviour
             Animator.SetBool("IsJumping", true);
         else 
             Animator.SetBool("IsJumping", false);
+
+        if (Time.timeScale > 0
+        && (Renderer.sprite.name.Contains("_0") || Renderer.sprite.name.Contains("_18")) 
+        && Animator.GetBool("IsJumping") == false
+        && Animator.GetBool("IsDrifting") == false)
+            SoundPlayer.Instance.PlayStepSound();
     }
 
     private void OnCollisionEnter2D(Collision2D other)
@@ -62,7 +70,7 @@ public class PlayerAnimator : MonoBehaviour
 
     public static void ChangeSkin(SkinType type)
     {
-        Instance.transform.localPosition = new Vector2(-0.14f, 1.33f);
+        Instance.AnimatorObject.transform.localPosition = new Vector2(-0.14f, 1.33f);
         if (GameModel.OpenedCharacters.Contains(type))
         {
             switch (type)
@@ -80,7 +88,7 @@ public class PlayerAnimator : MonoBehaviour
                 case SkinType.Marvin:
                     Instance.Animator.runtimeAnimatorController = Instance.MarvinController;
                     GameModel.SkinType = SkinType.Marvin;
-                    Instance.offsetY = 0;
+                    Instance.offsetY = -0.2f;
                     break;
             }
         }

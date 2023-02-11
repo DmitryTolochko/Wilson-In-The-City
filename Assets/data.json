@@ -1,9 +1,11 @@
 {
-    "MoneyCount": 74,
-    "CrystalCount": 2,
-    "BestScore": 187.40682983398438,
-    "SkinType": 0,
+    "MoneyCount": 246,
+    "CrystalCount": 1883,
+    "BestScore": 213.30841064453126,
+    "SkinType": 1,
     "OpenedTypes": [
-        0
+        0,
+        2,
+        1
     ]
 }
