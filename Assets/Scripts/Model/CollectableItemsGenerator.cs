@@ -25,7 +25,7 @@ public class CollectableItemsGenerator : MonoBehaviour
         // type = num > 6 ? PoolObjectType.Clock : type;
         var type = GetItemType();
         var item = PoolManager.Instance.GetPoolObject(type);
-        item.transform.localPosition = new Vector2(17f, 0f);
+        item.transform.localPosition = new Vector2(17f, Random.Range(-3.2f, 3.2f));
         item.SetActive(true);
 
         items.Add(item);

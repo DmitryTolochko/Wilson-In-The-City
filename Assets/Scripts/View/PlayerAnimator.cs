@@ -6,6 +6,8 @@ public class PlayerAnimator : MonoBehaviour
 {
     public static PlayerAnimator Instance;
 
+    public GameObject AnimatorObject;
+
     public RuntimeAnimatorController WilsonController;
     public RuntimeAnimatorController RichardController;
     public RuntimeAnimatorController MarvinController;
@@ -13,12 +15,15 @@ public class PlayerAnimator : MonoBehaviour
     [HideInInspector]
     public Animator Animator;
     private new Collider2D collider;
+    private float offsetY;
 
     private void Start() 
     {
         Animator = transform.Find("Animator").GetComponent<Animator>();
         collider = GetComponent<Collider2D>();
         Instance = this;
+
+        ChangeSkin(GameModel.SkinType);
     }
 
     private void Update() 
@@ -34,6 +39,11 @@ public class PlayerAnimator : MonoBehaviour
         if (other.transform.name != "Background")
         {
             Animator.SetBool("IsDrifting", true);
+            AnimatorObject.transform.position = new Vector2
+            (
+                AnimatorObject.transform.position.x,
+                AnimatorObject.transform.position.y + offsetY
+            );
         }
     }
 
@@ -43,21 +53,38 @@ public class PlayerAnimator : MonoBehaviour
             return;
         
         Animator.SetBool("IsDrifting", false);
+        AnimatorObject.transform.position = new Vector2
+        (
+            AnimatorObject.transform.position.x,
+            AnimatorObject.transform.position.y - offsetY
+        );
     }
 
     public static void ChangeSkin(SkinType type)
     {
-        switch (type)
+        Instance.transform.localPosition = new Vector2(-0.14f, 1.33f);
+        if (GameModel.OpenedCharacters.Contains(type))
         {
-            case SkinType.Wilson:
-                Instance.Animator.runtimeAnimatorController = Instance.WilsonController;
-                break;
-            case SkinType.Richard:
-                Instance.Animator.runtimeAnimatorController = Instance.RichardController;
-                break;
-            case SkinType.Marvin:
-                Instance.Animator.runtimeAnimatorController = Instance.MarvinController;
-                break;
+            switch (type)
+            {
+                case SkinType.Wilson:
+                    Instance.Animator.runtimeAnimatorController = Instance.WilsonController;
+                    GameModel.SkinType = SkinType.Wilson;
+                    Instance.offsetY = 0;
+                    break;
+                case SkinType.Richard:
+                    Instance.Animator.runtimeAnimatorController = Instance.RichardController;
+                    GameModel.SkinType = SkinType.Richard;
+                    Instance.offsetY = -0.7f;
+                    break;
+                case SkinType.Marvin:
+                    Instance.Animator.runtimeAnimatorController = Instance.MarvinController;
+                    GameModel.SkinType = SkinType.Marvin;
+                    Instance.offsetY = 0;
+                    break;
+            }
         }
+
+        GameModel.SaveToFile();
     }
 }

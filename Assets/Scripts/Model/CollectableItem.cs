@@ -26,9 +26,7 @@ public class CollectableItem : MonoBehaviour
         if (other.transform.name == "Player")
             return; 
         if (other.transform.name == "Background")
-            transform.position = new Vector2(
-                transform.position.x, 
-                0f);
+            return;
         else
             transform.position = new Vector2(
                 transform.position.x, 

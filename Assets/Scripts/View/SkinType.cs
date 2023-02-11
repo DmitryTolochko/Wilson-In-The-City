@@ -6,5 +6,7 @@ public enum SkinType
 {
     Wilson,
     Richard,
-    Marvin
+    Marvin,
+    Mom,
+    Butler
 }

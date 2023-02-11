@@ -83,18 +83,18 @@ public class MainMenuButtons : MonoBehaviour
         }
     }
 
-    public void ChangeSkinToWilson()
-    {
-        PlayerAnimator.ChangeSkin(SkinType.Wilson);
-    }
+    // public void ChangeSkinToWilson()
+    // {
+    //     PlayerAnimator.ChangeSkin(SkinType.Wilson);
+    // }
 
-    public void ChangeSkinToRichard()
-    {
-        PlayerAnimator.ChangeSkin(SkinType.Richard);
-    }
+    // public void ChangeSkinToRichard()
+    // {
+    //     PlayerAnimator.ChangeSkin(SkinType.Richard);
+    // }
 
-    public void ChangeSkinToMarvin()
-    {
-        PlayerAnimator.ChangeSkin(SkinType.Marvin);
-    }
+    // public void ChangeSkinToMarvin()
+    // {
+    //     PlayerAnimator.ChangeSkin(SkinType.Marvin);
+    // }
 }

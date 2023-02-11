@@ -34,7 +34,7 @@ public class PlayerModel : MonoBehaviour
             transform.localPosition.y - collider.bounds.size.y/2)
         && (other.transform.position.x - other.bounds.size.x/2 >=
             transform.localPosition.x))
-            StartCoroutine(GameModel.StartGameOverRoutine());
+            GameModel.StartGameOverRoutine();
     }
 
     public static void Reset()

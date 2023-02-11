@@ -3,6 +3,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.IO;
+
+public class GameModelStruct
+{
+    public int MoneyCount; 
+    public int CrystalCount;
+    public float BestScore;
+    public SkinType SkinType;
+    public List<SkinType> OpenedTypes;
+}
 
 public class GameModel : MonoBehaviour
 {
@@ -11,10 +21,18 @@ public class GameModel : MonoBehaviour
 
     public static GameModel Instance {get; private set;}
 
-    public static int CrystalsCountCurrent;
-    public static int MoneyCountCurrent;
-    public static float ScoreCurrent;
-    public static float TimeScaleCurrent;
+    [SerializeField]
+    public static int CrystalsCountCurrent, MoneyCountCurrent, MoneyCount, CrystalCount;
+    [SerializeField]
+    public static float ScoreCurrent, TimeScaleCurrent, BestScore;
+    [SerializeField]
+    public static SkinType SkinType;
+    public static List<SkinType> OpenedCharacters;
+
+    [SerializeField]
+    private static string savePath;
+    [SerializeField]
+    private string saveFileName = "data.json";
 
     public static int CollectedClocksCurrent 
     { 
@@ -24,6 +42,58 @@ public class GameModel : MonoBehaviour
                 collectedClocksCurrent = value;
                 IncreaseClockNum();
             } 
+    }
+
+    public static void SaveToFile()
+    {
+        var game = new GameModelStruct
+        {
+            MoneyCount = MoneyCount,
+            CrystalCount = CrystalCount,
+            BestScore = BestScore,
+            SkinType = SkinType,
+            OpenedTypes = OpenedCharacters
+        };
+
+        var json = JsonUtility.ToJson(game, true);
+
+        File.WriteAllText(savePath, json);
+    }
+
+    public void LoadFromFile()
+    {
+        if (!File.Exists(savePath))
+            return;
+        var json = File.ReadAllText(savePath);
+
+        var game = JsonUtility.FromJson<GameModelStruct>(json);
+
+        MoneyCount = game.MoneyCount;
+        CrystalCount = game.CrystalCount;
+        BestScore = game.BestScore;
+        SkinType = game.SkinType;
+        OpenedCharacters = game.OpenedTypes;
+    }
+
+    private void Awake() 
+    {
+#if UNITY_ANDROID && !UNITY_EDITOR
+        savePath = Path.Combine(Application.persistentDataPath, saveFileName);
+#else
+        savePath = Path.Combine(Application.dataPath, saveFileName);
+#endif
+        LoadFromFile();
+    }
+
+    private void OnApplicationQuit() 
+    {
+        SaveToFile();
+    }
+
+    private void OnApplicationPause(bool pauseStatus) 
+    {
+        if (Application.platform == RuntimePlatform.Android)
+            SaveToFile();
     }
 
     private void Start() 
@@ -44,12 +114,20 @@ public class GameModel : MonoBehaviour
         }
     }
 
-    public static IEnumerator StartGameOverRoutine()
+    public static void StartGameOverRoutine()
     {
         TimeScaleCurrent = Time.timeScale;
         Time.timeScale = 0;
+
+        if (BestScore < ScoreCurrent)
+            BestScore = ScoreCurrent;
+
+        MoneyCount += MoneyCountCurrent;
+        CrystalCount += CrystalsCountCurrent;
+
+        SaveToFile();
         Instance.GameOverWindow.SetActive(true);
-        yield return 0;
+        GameOverNumbers.Refresh();
     }
 
     public static event Action IncreaseClockNum;
