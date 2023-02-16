@@ -35,7 +35,7 @@ public class SoundPlayer : MonoBehaviour
         musicPlayer = GetComponent<AudioSource>();
         UIPlayer = transform.Find("UISoundPlayer").GetComponent<AudioSource>();
         stepsPlayer = transform.Find("StepsSoundPlayer").GetComponent<AudioSource>();
-
+        ambiancePlayer = transform.Find("AmbiancePlayer").GetComponent<AudioSource>();
         Instance = this;
     }
 
@@ -45,8 +45,7 @@ public class SoundPlayer : MonoBehaviour
         if (musicPlayer.clip == music && musicPlayer.isPlaying)
             return;
         
-        if (musicPlayer.isPlaying)
-            musicPlayer.Stop();
+        musicPlayer.Stop();
 
         musicPlayer.clip = music;
         musicPlayer.Play();
@@ -95,5 +94,15 @@ public class SoundPlayer : MonoBehaviour
     {
         stepsPlayer.clip = StepsList[Random.Range(0, StepsList.Count)];
         stepsPlayer.Play();
+    }
+
+    public void PlayAmbiance()
+    {
+        ambiancePlayer.Play();
+    }
+
+    public void StopAmbiance()
+    {
+        ambiancePlayer.Stop();
     }
 }

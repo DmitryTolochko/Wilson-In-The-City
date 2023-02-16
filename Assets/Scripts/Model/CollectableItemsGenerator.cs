@@ -70,21 +70,24 @@ public class CollectableItemsGenerator : MonoBehaviour
 
     private PoolObjectType GetItemType()
     {
+        print(Time.timeScale);
         if (GameModel.ScoreCurrent <= 100)
             return PoolObjectType.Money;
-        
-        if (GameModel.ScoreCurrent > 100 && GameModel.ScoreCurrent <= 200)
+
+        if (Time.timeScale > 4.2f)
         {
-            return Random.Range(0, 10) == 0 ? PoolObjectType.Crystal : PoolObjectType.Money;
+            var num = Random.Range(1, 11);
+
+            if (num > 8)
+                return PoolObjectType.Clock;
+            else if (num == 1)
+                return PoolObjectType.Crystal;
+            else
+                return PoolObjectType.Money;
         }
-
-        var num = Random.Range(1, 11);
-
-        if (num > 8)
-            return PoolObjectType.Clock;
-        else if (num == 1)
-            return PoolObjectType.Crystal;
-        else
-            return PoolObjectType.Money;
+        
+        // if (GameModel.ScoreCurrent > 100 && GameModel.ScoreCurrent <= 150)
+        // {
+        return Random.Range(0, 10) == 0 ? PoolObjectType.Crystal : PoolObjectType.Money;       
     }
 }

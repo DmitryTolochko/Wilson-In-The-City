@@ -103,6 +103,12 @@ public class GameModel : MonoBehaviour
         Time.timeScale = 0;
         Instance = this;
         SoundPlayer.Instance.PlayMusic(MusicType.Menu);
+
+        if (!OpenedCharacters.Contains(SkinType.Wilson))
+        {
+            OpenedCharacters.Add(SkinType.Wilson);
+            SaveToFile();
+        }
     }
 
     private void Update() 
@@ -111,7 +117,8 @@ public class GameModel : MonoBehaviour
         {
             ScoreCurrent += 0.05f;
             Time.timeScale += 0.0005f;
-            PlayerModel.Instance.rb.gravityScale -= 0.001f;
+            if (PlayerModel.Instance.rb.gravityScale > 1.2f)
+                PlayerModel.Instance.rb.gravityScale -= 0.001f;
             //PlayerModel.Instance.rb.mass += 0.0001f;
         }
     }
@@ -120,7 +127,7 @@ public class GameModel : MonoBehaviour
     {
         TimeScaleCurrent = Time.timeScale;
         Time.timeScale = 0;
-        SoundPlayer.Instance.StopMusic();
+        SoundPlayer.Instance.PauseMusic();
         SoundPlayer.Instance.PlayUISound(UISoundType.GameOver);
 
         if (BestScore < ScoreCurrent)
@@ -146,7 +153,12 @@ public class GameModel : MonoBehaviour
 
         yield return new WaitForSeconds(15);
 
-        Time.timeScale = TimeScaleCurrent;
-        PlayerModel.Instance.rb.gravityScale = gravity;
+        while (Time.timeScale < TimeScaleCurrent)
+        {
+            Time.timeScale += 0.05f;
+            if (PlayerModel.Instance.rb.gravityScale > 1.2f)
+                PlayerModel.Instance.rb.gravityScale -= 0.1f;
+            yield return new WaitForSeconds(1);
+        }
     }
 }
